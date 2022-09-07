@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sorteio Projeto</string>
+    <string name="jogar">Jogar</string>
+    <string name="escolha_um_n_mero_entre_o_0_e_10">Escolha um número entre o 0 e 10</string>
+</resources>
