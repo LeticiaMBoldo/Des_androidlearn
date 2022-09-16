@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#35E8B9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgTopo"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/topo"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/celular" />
+
+    <TextView
+        android:id="@+id/idTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/imagemTopo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTopo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/dataRight"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/idTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toEndOf="@+id/idTitulo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/loremText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTitulo" />
+
+    <TextView
+        android:id="@+id/idNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/leticia_boldo"
+        android:textAlignment="textEnd"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnAnterior"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/proximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnAnterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnProximo"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

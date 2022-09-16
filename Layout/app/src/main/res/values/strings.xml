@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contraint Layout</string>
+    <string name="botao_cadastro">Cadastrar</string>
+    <string name="imagemTopo">Aprenda sobre edição de imagens</string>
+    <string name="dataRight">16/05/2022</string>
+    <string name="topo">TODO</string>
+    <string name="loremText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum sollicitudin orci, ac sagittis nibh egestas vel. Pellentesque vel nibh id lacus sagittis gravida. Fusce id consectetur purus, non auctor dolor. Curabitur quis felis eu eros tincidunt vehicula sit amet eleifend odio. Nam vel tristique massa. Curabitur non ornare ligula. Sed interdum ultrices metus, a rhoncus lectus porta sit amet. Phasellus placerat vel lorem a euismod. Nam vitae leo tincidunt, porta quam sit amet, suscipit enim.</string>
+    <string name="leticia_boldo">Leticia Boldo</string>
+    <string name="proximo">Proximo</string>
+    <string name="anterior">Anterior</string>
+</resources>
